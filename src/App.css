@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.hero {
+  height: 590px;
+  background-color: #495e57;
+}
+.highlights {
+  height: 590px;
+  /* background-color: #495e57; */
+}
+.testimonials {
+  height: 590px;
+  background-color: #495e57;
+}
+.about {
+  height: 590px;
+  /* background-color: #495e57; */
+}
