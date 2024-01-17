@@ -1,14 +1,14 @@
-// import {
-//   faFacebook,
-//   faTwitter,
-//   faInstagram,
-//   faYoutube,
-// } from "@fortawesome/free-brands-svg-icons";
-// import {
-//   faEnvelope,
-//   faLocationDot,
-//   faPhone,
-// } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faEnvelope,
+  faLocationDot,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import "./Footer.css";
@@ -16,16 +16,16 @@ import logoWhiteImage from "./assets/logo-white.png";
 import pages from "../../utils/pages";
 
 const contacts = [
-  { icon: "faLocationDot", info: "678 Pisa Ave, Chicago, IL 60611" },
-  { icon: "faPhone", info: "(312) 593-2744" },
-  { icon: "faEnvelope", info: "customer@littlelemon.com" },
+  { icon: faLocationDot, info: "678 Pisa Ave, Chicago, IL 60611" },
+  { icon: faPhone, info: "(312) 593-2744" },
+  { icon: faEnvelope, info: "customer@littlelemon.com" },
 ];
 
 const socials = [
-  { icon: "faFacebook", name: "facebook" },
-  { icon: "faTwitter", name: "twitter" },
-  { icon: "faInstagram", name: "instagram" },
-  { icon: "faYoutube", name: "youtube" },
+  { icon: faFacebook, name: "facebook" },
+  { icon: faTwitter, name: "twitter" },
+  { icon: faInstagram, name: "instagram" },
+  { icon: faYoutube, name: "youtube" },
 ];
 
 const navLinks = Array.from(pages.values()).filter((page) => page.anchorable);
